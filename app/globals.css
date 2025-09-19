@@ -3,12 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: 240 80% 45%;
-  --color-accent: 160 70% 35%;
-  --color-bg: 230 10% 5%;
-  --color-surface: 230 10% 10%;
-  --color-text-muted: 230 5% 60%;
-  --color-text-primary: 0 0% 95%;
+  --primary: 240 80% 45%;
+  --accent: 160 70% 35%;
+  --bg: 230 10% 5%;
+  --surface: 230 10% 10%;
+  --text-muted: 230 5% 60%;
+  --text-primary: 0 0% 95%;
+  --border: 230 10% 15%;
+  --input: 230 10% 15%;
+  --ring: 240 80% 45%;
 }
 
 * {

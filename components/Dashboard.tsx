@@ -10,14 +10,14 @@ import { ForecastModal } from './ForecastModal';
 import { CreatorDashboard } from './CreatorDashboard';
 import { TrendingUp, Brain, Zap, Target } from 'lucide-react';
 import { generateMockChartData, formatPrice, formatPercentage } from '../lib/utils';
-import { useMiniKit } from '@coinbase/minikit';
+// import { useMiniKit } from '@coinbase/onchainkit/minikit';
 
 export function Dashboard() {
   const [activeTab, setActiveTab] = useState<'forecast' | 'creator'>('forecast');
   const [showForecastModal, setShowForecastModal] = useState(false);
   const [chartData, setChartData] = useState<any[]>([]);
   const [selectedToken, setSelectedToken] = useState('ETH');
-  const { user } = useMiniKit();
+  // const { user } = useMiniKit(); // TODO: Implement user authentication
 
   useEffect(() => {
     // Generate mock chart data
