@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "TokenForecast AI",
+    "subtitle": "Built with Zara",
+    "description": "TokenForecast AI is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://4cb75ec79d554378a4b8b234a5bf48d1-x662.vercel.app",
+    "splashImageUrl": "https://4cb75ec79d554378a4b8b234a5bf48d1-x662.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://4cb75ec79d554378a4b8b234a5bf48d1-x662.vercel.app/image.png",
+    "tagline": "TokenForecast AI",
+    "screenshotUrls": [
+      "https://4cb75ec79d554378a4b8b234a5bf48d1-x662.vercel.app/screenshot.png",
+      "https://4cb75ec79d554378a4b8b234a5bf48d1-x662.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://4cb75ec79d554378a4b8b234a5bf48d1-x662.vercel.app/api/webhook"
+  }
+}
